@@ -49,12 +49,12 @@ To install this datapack you simply download the zip and put it in your "datapac
 > - Example image is given below:
 ![Example Image](https://cdn.modrinth.com/data/ugFrgHMM/images/f1444ff7da4d289d37f0d737d07a4aab332495ea.png)
 
-**If you find any bugs, please report them in my discord server**
-
 ## Features
 - Since version [0.0.3](https://modrinth.com/datapack/voidtp/version/0.0.3), [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros) are used
 - Multi-version compatibility from 23w31a to latest
 - Teleport to specific dimensions (Coming soon)
+
+**If you find any bugs, please report them in my discord server**
 
 Todo;
 - add dimension check
