@@ -1,0 +1,2 @@
+scoreboard players set .dim .vtp 0
+execute if score .dim .vtp matches 0 run tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Disabled dimension check","italic":true,"color":"dark_red"}]

@@ -1,3 +1,8 @@
 # Help function
-tellraw @s ["",{"text":"====================","bold":true,"color":"gold"},"\n",{"text":"/trigger VoidTP.Help ","color":"green"},{"text":"- Shows the help menu","bold":true,"color":"yellow"},"\n",{"text":"/trigger VoidTP.setspawn ","color":"green"},{"text":"- Sets the spawn point","bold":true,"color":"yellow"},"\n",{"text":"/trigger VoidTP.MinHeight set {int} ","color":"green"},{"text":"- Sets the minimum height after which the player will be teleported to spawn","bold":true,"color":"yellow"},"\n",{"text":"====================","bold":true,"color":"gold"}]
+tellraw @s {"text":"========================================","bold":true}
+tellraw @s ["",{"text":"/trigger VoidTP.setspawn ","color":"yellow"},"- Sets the spawn point"]
+tellraw @s ["",{"text":"/trigger VoidTP.help ","color":"yellow"},"- Shows this help menu"]
+tellraw @s ["",{"text":"/trigger VoidTP.MinHeight set {value} ","color":"yellow"},"- Sets the minimum height"]
+tellraw @s ["",{"text":"/trigger VoidTP.DimensionCheck ","color":"yellow"},"- Enables/Disables DimensionCheck"]
+tellraw @s {"text":"========================================","bold":true}
 scoreboard players reset @s VoidTP.Help
