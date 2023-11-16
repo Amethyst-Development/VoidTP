@@ -4,6 +4,8 @@
 - You have created a map
 - Other reasons
 
+- **Mostly intended for map makers to use**
+
 ## Info
 Teleports a player automatically back to specified spawn point and dimension, after the player falls into the void.
 
@@ -13,18 +15,20 @@ To install this datapack you simply download the zip and put it in your "datapac
 ### After downloading the datapack and loading it into your world:
 - Run the command ```/function vtp:admin``` to get access to datapack commands (This  command also applies some default settings)
 - Run ```/trigger VoidTP.setspawn``` to set the spawn
-- Run the command ```/gamerule falldamage false``` to avoid receiving fall damage 
 - (Optional) Modify the  minimum teleport height by using ```/trigger VoidTP.MinHeight set {value}```
 
-### Known issue
-- **Receives fall damage in survival after falling into void and being teleported to spawn**, quick fix for this is changing the fall damage to ```false``` in the gamerule command.
+### Limitations
+- Cannot a set teleport point for every world.
 
 ### Commands:
 - ```/trigger VoidTP.setspawn``` - Sets the spawn point.
 
-- ```/trigger VoidTP.help``` - Lists all commands available
+- ```/trigger VoidTP.help``` - Lists all available commands
 
-> - ```/trigger VoidTP.DimensionCheck``` - Teleports the player to the parent world where the spawn was set, if disabled the player would be teleported to co-ordinates in his/her current world.
+- ```/trigger VoidTP.ApplyEffect``` - Should we apply slow falling effect to the player after falling into void ?
+
+- ```/trigger VoidTP.DimensionCheck``` 
+> - Teleports the player to the parent world where the spawn was set, if disabled the player would be teleported to co-ordinates in his/her current Dimension.
 > - Default value: Enabled
 > - Recommended value: Enabled
 
@@ -38,7 +42,8 @@ To install this datapack you simply download the zip and put it in your "datapac
 ![Example Image](https://cdn.modrinth.com/data/ugFrgHMM/images/f1444ff7da4d289d37f0d737d07a4aab332495ea.png)
 
 ## Features
-- Since version [0.0.3](https://modrinth.com/datapack/voidtp/version/0.0.3), [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros) are used
+- Uses [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros)
+
 - Multi-version compatibility from 23w31a to latest
 
 **If you find any bugs, please report them in my discord server**
