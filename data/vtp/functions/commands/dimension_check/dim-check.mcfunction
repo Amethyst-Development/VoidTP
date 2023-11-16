@@ -1,6 +1,8 @@
 execute store result score .i .vtp run scoreboard players get .dim .vtp
 scoreboard players reset @s VoidTP.DimensionCheck
 
+# 0 = Failure, so the check was disabled
+# 1 = Success, so the check was enabled
 # Runs functions based on what was the outcome of the above commands
 execute if score .i .vtp matches 0 run function vtp:commands/dimension_check/enable
 

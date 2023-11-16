@@ -1,2 +1,2 @@
 scoreboard players set .dim .vtp 1
-execute if score .dim .vtp matches 1 run tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully enabled dimension check.","bold":true,"italic":true,"color":"green"}]
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Enabled Dimension check.","italic":true,"color":"green"}]

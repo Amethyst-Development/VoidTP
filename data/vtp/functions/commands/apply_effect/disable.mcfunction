@@ -1,0 +1,2 @@
+scoreboard players set .eff .vtp 0
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Disabled ApplyEffect check","italic":true,"color":"dark_red"}]
