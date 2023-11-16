@@ -16,6 +16,7 @@ To install this datapack you simply download the zip and put it in your "datapac
 - Run the command ```/function vtp:admin``` to get access to datapack commands (This  command also applies some default settings)
 - Run ```/trigger VoidTP.setspawn``` to set the spawn
 - (Optional) Modify the  minimum teleport height by using ```/trigger VoidTP.MinHeight set {value}```
+- You don't need to modify other things unless you're onto something.
 
 ### Limitations
 - Cannot a set teleport point for every world.
@@ -45,5 +46,3 @@ To install this datapack you simply download the zip and put it in your "datapac
 - Uses [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros)
 
 - Multi-version compatibility from 23w31a to latest
-
-**If you find any bugs, please report them in my discord server**
