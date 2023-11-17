@@ -26,7 +26,8 @@ To install this datapack you simply download the zip and put it in your "datapac
 
 - ```/trigger VoidTP.help``` - Lists all available commands
 
-- ```/trigger VoidTP.ApplyEffect``` - Should we apply slow falling effect to the player after falling into void ?
+**Note: Lower versions before 0.0.5 doesn't have the below feature and requires you to run /gamerule falldamage false**
+- ```/trigger VoidTP.ApplyEffect``` - neutralizes fall damage by applying slow falling for 4 seconds, If disabled player will receive fall damage
 
 - ```/trigger VoidTP.DimensionCheck``` 
 > - Teleports the player to the parent world where the spawn was set, if disabled the player would be teleported to co-ordinates in his/her current Dimension.
@@ -45,4 +46,4 @@ To install this datapack you simply download the zip and put it in your "datapac
 ## Features
 - Uses [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros)
 
-- Multi-version compatibility from 23w31a to latest
+- Multi-version compatibility from 23w31a to latest (Older versions that have 1.20.1 or below compability have many bugs and were not tested on newer versions so don't use them!)
