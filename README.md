@@ -17,7 +17,7 @@ Teleports a player automatically back to specified spawn point and dimension, af
 ## Installation
 To install this datapack you simply download the zip and put it in your "datapacks" folder inside your desired world.
 
-### After downloading the datapack and loading it into your world:
+### Setup:
 - Run the command ```/function vtp:admin``` to get access to datapack commands (This  command also applies some default settings)
 - Run ```/trigger VoidTP.setspawn``` to set the spawn
 - (Optional) Modify the  minimum teleport height by using ```/trigger VoidTP.MinHeight set {value}```
