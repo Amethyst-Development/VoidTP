@@ -4,14 +4,13 @@ Versions:
 # Info
 Teleports a player automatically back to specified spawn point and dimension, after the player falls into the void.
 
-## Features
+## Features & Limitations
 - Uses [macro functions](https://minecraft.wiki/w/Function_(Java_Edition)#Macros)
 
 - Multi-version compatibility from 23w31a to latest (Versions that have compatibility of 1.20.1 or below are unsupported, have bugs and lack so many features I will not recommend you to use them!)
 
 - Almost everything is customizable in-game (Messages excluded)
 
-### Limitations
 - Cannot a set teleport point for every world.
 
 ## Installation
