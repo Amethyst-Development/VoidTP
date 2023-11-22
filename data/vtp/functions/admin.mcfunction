@@ -2,7 +2,6 @@
 tag @s add vtp
 
 # Default values
-
 # Default value of minimum height (In Y-Level)
 scoreboard players set .min .vtp -65
 

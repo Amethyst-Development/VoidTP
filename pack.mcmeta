@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 25,
+        "pack_format": 26,
         "supported_formats":{"min_inclusive": 16, "max_inclusive": 25},
         "description": "A void teleport datapack"
     }
