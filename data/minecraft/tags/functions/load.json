@@ -1,6 +1,6 @@
 {
     "values": [
-        "vtp:load"
+        "vtp:executors/load"
         
     ]
 }

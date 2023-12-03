@@ -1,0 +1,1 @@
+execute as @a at @s[type=player] run function vtp:executors/main

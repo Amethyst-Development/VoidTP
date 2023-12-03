@@ -1,2 +1,0 @@
-scoreboard players set .dim .vtp 0
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Disabled Dimension check","italic":true,"color":"dark_red"}]
