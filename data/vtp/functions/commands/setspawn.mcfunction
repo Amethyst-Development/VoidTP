@@ -1,7 +1,7 @@
 # Stores all the required data
-execute store result storage vtp:voidtp i.x double 1 run data get entity @s Pos[0]
-execute store result storage vtp:voidtp i.y double 1 run data get entity @s Pos[1]
-execute store result storage vtp:voidtp i.z double 1 run data get entity @s Pos[2]
+data modify storage vtp:voidtp i.x set from entity @s Pos[0]
+data modify storage vtp:voidtp i.y set from entity @s Pos[1]
+data modify storage vtp:voidtp i.z set from entity @s Pos[2]
 data modify storage vtp:voidtp i.d set string entity @s Dimension
 
 scoreboard players reset @s VoidTP.SetSpawn
