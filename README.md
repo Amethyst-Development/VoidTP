@@ -35,6 +35,9 @@ To install this datapack you simply download the zip and put it in your "datapac
     - Recommended value: Enabled
     - Legacy: False
 
+- ```VoidTP.TeleportToCurrent```
+    - If dimension check is disabled, this decides whether to teleport player in current dimension with the co-ordinates that were set for another world
+
 - ```/trigger VoidTP.MinHeight set <value>```
     - Sets the minimum height after which the player will be teleported to spawn
     - Default value: -65
