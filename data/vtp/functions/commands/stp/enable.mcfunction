@@ -1,2 +1,2 @@
 scoreboard players set .stp .vtp 1
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Enabled sending to parent world","italic":true,"color":"green"}]
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Enabled STP check","italic":true,"color":"green"}]

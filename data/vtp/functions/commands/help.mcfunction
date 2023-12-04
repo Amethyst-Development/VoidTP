@@ -7,4 +7,5 @@ tellraw @s ["",{"text":"/trigger VoidTP.RemoveSpawn ","color":"yellow"},"- Remov
 tellraw @s ["",{"text":"/trigger VoidTP.MinHeight set {value} ","color":"yellow"},"- Sets the minimum height"]
 tellraw @s ["",{"text":"/trigger VoidTP.ApplyEffect ","color":"yellow"},"- Neutralise fall damage if enabled"]
 tellraw @s ["",{"text":"/trigger VoidTP.SendToParent ","color":"yellow"},"- Sends player to the parent world"]
+tellraw @s ["",{"text":"/trigger VoidTP.TeleportToCurrent ","color":"yellow"},"- Sends to current world if STP is disabled"]
 tellraw @s {"text":"========================================","bold":true}
