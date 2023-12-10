@@ -7,4 +7,4 @@ data modify storage vtp:voidtp i.d set string entity @s Dimension
 scoreboard players reset @s VoidTP.SetSpawn
 
 # SetSpawn message
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully set the spawn point.","bold":true,"italic":true,"color":"green"}]
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully set the spawn point.","italic":true,"color":"green"}]

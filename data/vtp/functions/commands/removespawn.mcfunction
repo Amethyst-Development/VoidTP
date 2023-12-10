@@ -4,4 +4,4 @@ scoreboard players reset @s VoidTP.RemoveSpawn
 data remove storage vtp:voidtp i
 
 # RemoveSpawn message
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully removed the spawn point.","bold":true,"italic":true,"color":"dark_red"}]
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully removed the spawn point.","italic":true,"color":"dark_red"}]
