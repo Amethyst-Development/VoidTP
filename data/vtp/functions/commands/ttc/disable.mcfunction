@@ -1,2 +1,0 @@
-scoreboard players set .ttc .vtp 0
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Disabled TTC check","italic":true,"color":"dark_red"}]
