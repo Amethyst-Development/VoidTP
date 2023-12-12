@@ -1,0 +1,2 @@
+scoreboard players set .rot .vtp 0
+tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Disabled strict rotation check.","italic":true,"color":"dark_red"}]

@@ -1,5 +1,5 @@
-execute store result score .i .vtp run scoreboard players get .eff .vtp
 scoreboard players reset @s VoidTP.ApplyEffect
+execute store result score .i .vtp run scoreboard players get .eff .vtp
 
 # 0 = Failure, so the check was disabled
 # 1 = Success, so the check was enabled
@@ -10,4 +10,4 @@ execute if score .i .vtp matches 1 run function vtp:commands/apply_effect/disabl
 execute if score .i .vtp matches ..-1 run function vtp:commands/apply_effect/disable
 execute if score .i .vtp matches 2.. run function vtp:commands/apply_effect/disable
 
-scoreboard players reset i. .vtp
+scoreboard players reset .i .vtp

@@ -5,6 +5,9 @@ $data modify storage vtp:voidtp custom.$(w).z set from entity @s Pos[2]
 # To access later, if needed
 $data modify storage vtp:voidtp custom.$(w).d set string entity @s Dimension
 
+$data modify storage vtp:voidtp custom.$(w).r0 set from entity @s Rotation[0]
+$data modify storage vtp:voidtp custom.$(w).r1 set from entity @s Rotation[1]
+
 scoreboard players reset @s VoidTP.AddSpawn
 
 # AddSpawn message
