@@ -1,2 +1,2 @@
 scoreboard players set .logic .vtp 1
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Set Logic to global","italic":true,"color":"green"}]
+tellraw @s [{"text":"["},{"text":"VoidTP","color":"dark_purple"},{"text":"]"},{"text":" Set Logic to global","italic":true,"color":"green"}]

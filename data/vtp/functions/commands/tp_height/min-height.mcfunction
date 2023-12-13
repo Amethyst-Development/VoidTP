@@ -1,5 +1,5 @@
-scoreboard players operation .min .vtp = @s VoidTP.MinHeight
+execute store result score .min .vtp run scoreboard players get @s VoidTP.MinHeight
 
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully set the teleport level","italic":true,"color":"green"}]
+tellraw @s [{"text":"["},{"text":"VoidTP","color":"dark_purple"},{"text":"]"},{"text":" Minimum Y-Level is now ","italic":true,"color":"green"},{"score":{"name": "@s","objective": "VoidTP.MinHeight"}}]
 
 scoreboard players reset @s VoidTP.MinHeight

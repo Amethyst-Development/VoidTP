@@ -1,4 +1,3 @@
-# Main
 scoreboard objectives add .vtp dummy
 
 # Commands

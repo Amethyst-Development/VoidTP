@@ -9,4 +9,4 @@ $data modify storage vtp:voidtp custom.$(w).r1 set from entity @s Rotation[1]
 scoreboard players reset @s VoidTP.AddSpawn
 
 # AddSpawn message
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully added a spawn point.","italic":true,"color":"green"}]
+tellraw @s [{"text":"["},{"text":"VoidTP","color":"dark_purple"},{"text":"]"},{"text":" Successfully added a spawn point.","italic":true,"color":"green"}]

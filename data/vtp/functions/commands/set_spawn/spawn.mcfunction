@@ -10,4 +10,4 @@ data modify storage vtp:voidtp i.r1 set from entity @s Rotation[1]
 scoreboard players reset @s VoidTP.SetSpawn
 
 # SetSpawn message
-tellraw @s ["",{"text":"[","bold":true},{"text":"VoidTP","bold":true,"color":"dark_purple"},{"text":"]","bold":true},{"text":" Successfully set the spawn point.","italic":true,"color":"green"}]
+tellraw @s [{"text":"["},{"text":"VoidTP","color":"dark_purple"},{"text":"]"},{"text":" Successfully set the spawn point.","italic":true,"color":"green"}]
