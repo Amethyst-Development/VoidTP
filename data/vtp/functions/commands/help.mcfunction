@@ -1,4 +1,3 @@
-# Help
 scoreboard players reset @s VoidTP.Help
 tellraw @s {"text":"========================================","bold":true}
 tellraw @s [{"text":"/trigger VoidTP.help ","color":"yellow"},"- Shows this help menu"]
