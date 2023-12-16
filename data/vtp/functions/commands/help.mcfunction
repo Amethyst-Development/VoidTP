@@ -6,6 +6,5 @@ tellraw @s [{"text":"/trigger VoidTP.Rotation ","color":"yellow"},"- Controls pl
 tellraw @s [{"text":"/trigger VoidTP.Logic ","color":"yellow"},"- Changes how datapack behaves"]
 tellraw @s [{"text":"/trigger VoidTP.ApplyEffect ","color":"yellow"},"- Neutralises fall damage"]
 tellraw @s [{"text":"/trigger VoidTP.RemoveSpawn ","color":"yellow"},"- Removes the spawn point"]
-tellraw @s [{"text":"/trigger VoidTP.AddSpawn ","color":"yellow"},"- Add per world special spawn"]
 tellraw @s [{"text":"/trigger VoidTP.MinHeight set {value} ","color":"yellow"},"- Sets the minimum height"]
 tellraw @s {"text":"========================================","bold":true}

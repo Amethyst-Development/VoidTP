@@ -1,7 +1,6 @@
 # Main
-execute if entity @s[scores={VoidTP.SetSpawn=1..}] run function vtp:commands/set_spawn/spawn
-execute if entity @s[scores={VoidTP.AddSpawn=1..}] run function vtp:commands/add_spawn/getworld
-execute if entity @s[scores={VoidTP.RemoveSpawn=1..}] run function vtp:commands/remove_spawn/check
+execute if entity @s[scores={VoidTP.SetSpawn=1..}] run function vtp:executors/event/verify/spawn
+execute if entity @s[scores={VoidTP.RemoveSpawn=1..}] run function vtp:executors/event/verify/remspawn
 
 # Usual
 execute if score @s VoidTP.Help matches 1.. run function vtp:commands/help
