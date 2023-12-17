@@ -1,4 +1,3 @@
-# Enables all commands
 scoreboard players enable @s VoidTP.Help
 scoreboard players enable @s VoidTP.Logic
 scoreboard players enable @s VoidTP.SetSpawn
