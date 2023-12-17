@@ -1,6 +1,6 @@
 scoreboard players reset @s VoidTP.Help
 tellraw @s {"text":"========================================","bold":true}
-tellraw @s [{"text":"/trigger VoidTP.help ","color":"yellow"},"- Shows this help menu"]
+tellraw @s [{"text":"/trigger VoidTP.Help ","color":"yellow"},"- Shows this help menu"]
 tellraw @s [{"text":"/trigger VoidTP.SetSpawn ","color":"yellow"},"- Sets the spawn point"]
 tellraw @s [{"text":"/trigger VoidTP.Rotation ","color":"yellow"},"- Controls player rotation"]
 tellraw @s [{"text":"/trigger VoidTP.Logic ","color":"yellow"},"- Changes how datapack behaves"]

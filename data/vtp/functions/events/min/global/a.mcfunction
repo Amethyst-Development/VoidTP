@@ -1,0 +1,1 @@
+execute if score @s .sd <= .min .vtp run function vtp:events/global_tp/spawn with storage vtp:voidtp i

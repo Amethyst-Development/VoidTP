@@ -1,1 +1,0 @@
-$function vtp:events/world_tp/teleport with storage vtp:voidtp custom.$(k)
