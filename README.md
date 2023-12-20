@@ -1,3 +1,7 @@
+![Discord](https://img.shields.io/discord/1085840781857800222?style=plastic&logo=discord&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/Github_Repository-black?style=plastic&logo=github&link=https%3A%2F%2Fgithub.com%2FAmethyst-Development)
+![Static Badge](https://img.shields.io/badge/Buy_Me_A_Coffe-black?logo=buymeacoffee&logoColor=yellow&link=https%3A%2F%2Fwww.buymeacoffee.com%2Fgreen456)
+#
 # Info
 Teleports a player automatically back to specified point, after the player falls into the void.
 
