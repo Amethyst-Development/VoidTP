@@ -6,4 +6,4 @@ execute if score .min .vtp matches 0 run scoreboard players set .min .vtp -1
 function vtp:events/min/logic
 
 # Cmd
-execute if entity @s[tag=vtp] run function vtp:executors/cmds/runner
+execute if entity @s[tag=vtp] run function vtp:core/cmds/runner

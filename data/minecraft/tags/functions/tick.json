@@ -1,5 +1,5 @@
 {
     "values": [
-        "vtp:executors/tick"
+        "vtp:core/tick"
     ]
 }
