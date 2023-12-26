@@ -1,1 +1,1 @@
-$execute if data storage vtp:voidtp custom.$(m) if score @s .sd <= $(m) .vtp run function vtp:events/world_tp/teleport with storage vtp:voidtp custom.$(m)
+$execute if score @s .sd <= $(m) .vtp run function vtp:events/world_tp/teleport with storage vtp:voidtp custom.$(m)
