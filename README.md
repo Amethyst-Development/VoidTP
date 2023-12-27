@@ -1,10 +1,12 @@
+### Void Teleport has an [Discord Server](https://discord.com/invite/5jTmCzjvZQ) to help you with setup.
+
 # Info
 Teleports a player automatically back to specified point, after the player falls into the void.
 
 ## Features
 - Supports custom dimensions
-- per world teleport points
-- Global teleport point
+- Per-world spawn points
+- Global spawn point
 - Uses storage to store locations instead of scoreboards
 - Multiplayer support
 - Supported versions: 1.20.2-1.20.4
@@ -22,3 +24,7 @@ To install this datapack you simply download the zip and put it in your "datapac
 ### Reporting bugs will be appreciated 👍
 
 Also try: [AutoTree](https://modrinth.com/datapack/auto-tree)
+
+# Videos
+Here's a small tutorial video that my friend made:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/In_kgwU0goI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
