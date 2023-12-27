@@ -24,7 +24,3 @@ To install this datapack you simply download the zip and put it in your "datapac
 ### Reporting bugs will be appreciated 👍
 
 Also try: [AutoTree](https://modrinth.com/datapack/auto-tree)
-
-# Videos
-Here's a small tutorial video that my friend made:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/In_kgwU0goI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
