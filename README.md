@@ -8,9 +8,11 @@ Teleports a player automatically back to specified point, after the player falls
 - Per-world spawn points
 - Global spawn point
 - Uses storage to store locations instead of scoreboards
+- Does not round-up the co-ordinates hence teleports to precise location.
 - Multiplayer support
-- Supported versions: 1.20.2-1.20.4
-- Small file size, does not take much space
+- Does not use entities for teleporting players
+- A nice [wiki](https://github.com/Amethyst-Development/VoidTP/wiki)!
+- Supported versions: 1.20.2-1.20.5
 
 ## Installation
 To install this datapack you simply download the zip and put it in your "datapacks" folder inside your desired world.
