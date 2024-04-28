@@ -1,7 +1,7 @@
 {
     "pack": {
-        "pack_format": 30,
-        "supported_formats":{"min_inclusive": 16, "max_inclusive": 30},
-        "description": "A void teleport datapack, made by Green."
+        "pack_format": 41,
+        "supported_formats":{"min_inclusive": 16, "max_inclusive": 41},
+        "description": "A void teleport datapack, made by Greenlantern456."
     }
 }
