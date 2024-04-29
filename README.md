@@ -1,5 +1,3 @@
-### Void Teleport has an [Discord Server](https://discord.com/invite/5jTmCzjvZQ) to help you with setup.
-
 # Info
 Teleports a player automatically back to specified point, after the player falls into the void.
 
